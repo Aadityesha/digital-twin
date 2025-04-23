@@ -6,7 +6,7 @@ import matplotlib.dates as mdates
 from sklearn.ensemble import RandomForestClassifier
 
 # ========================
-# 🌈 Custom Streamlit Theme Header
+# Custom Streamlit Theme Header
 # ========================
 st.markdown("""
 <h1 style='text-align: center; color: #42f5b9;'>🛰 Digital Twin</h1>
@@ -14,7 +14,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ========================
-# 📥 Load and preprocess data
+# Load and preprocess data
 # ========================
 df = pd.read_csv("Data/processed_network_data.csv")
 df["timestamp"] = pd.to_datetime(df["timestamp"])
@@ -25,7 +25,7 @@ node_data = df[df["node_id"] == node_id]
 latest = node_data.sort_values("timestamp").iloc[-1]
 
 # ========================
-# 📊 Display key metrics
+# Display key metrics
 # ========================
 st.subheader(f"📍 Latest Telemetry for {node_id}")
 
@@ -54,7 +54,7 @@ model.fit(X, y)
 failure_prob = model.predict_proba([latest[features]])[0][1]
 
 # ========================
-# 🚨 Failure risk display
+# Failure risk display
 # ========================
 if failure_prob > 0.7:
     risk_status = "🟥 High"
@@ -67,7 +67,7 @@ st.markdown(f"### ⚠️ Failure Risk: {risk_status}")
 st.progress(failure_prob)
 
 # ========================
-# 📊 Telemetry Trends Section (Multiple Charts)
+# Telemetry Trends Section (Multiple Charts)
 # ========================
 st.subheader("📊 Node Telemetry Trends Over Time")
 sns.set_theme(style="darkgrid")
@@ -106,7 +106,7 @@ ax_latency.set_ylabel("Latency")
 st.pyplot(fig_latency)
 
 # ========================
-# 🧾 Footer
+# Footer
 # ========================
 st.markdown("---")
 st.markdown("<div style='text-align: center;'>Built with ❤️ using PySpark, Scikit-learn & Streamlit</div>", unsafe_allow_html=True)
