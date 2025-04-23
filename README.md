@@ -1,6 +1,6 @@
 # Digital Twin - Predictive Maintenance Dashboard
 
-A real-time machine learning dashboard simulating Comcast's network infrastructure using **PySpark**, **Scikit-learn**, and **Streamlit**.  
+A real-time machine learning dashboard simulating telecom network infrastructure using **PySpark**, **Scikit-learn**, and **Streamlit**.  
 This project implements a **Digital Twin** to monitor virtual network nodes, detect anomalies, and predict failure risks using telemetry data.
 
 ---
