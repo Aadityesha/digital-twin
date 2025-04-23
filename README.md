@@ -32,4 +32,4 @@ This project implements a **Digital Twin** to monitor virtual network nodes, det
 
 ## 📁 Folder Structure
 
-comcast-digital-twin-ml/ ├── data/ # Raw + processed telemetry CSVs ├── notebooks/ # Jupyter notebooks (data + modeling) ├── scripts/ # Data simulation script ├── app/ │ └── dashboard.py # Streamlit app ├── .streamlit/ │ └── config.toml # Dark mode + UI theme ├── README.md └── requirements.txt
+<pre> comcast-digital-twin-ml/ ├── data/ # Raw + processed telemetry CSVs ├── notebooks/ # Jupyter notebooks (data + modeling) ├── scripts/ # Data simulation script ├── app/ │ └── dashboard.py # Streamlit app ├── .streamlit/ │ └── config.toml # Dark mode + UI theme ├── README.md └── requirements.txt </pre>
