@@ -16,7 +16,7 @@ st.markdown("""
 # ========================
 # 📥 Load and preprocess data
 # ========================
-df = pd.read_csv("E:\Project\Digital Twin\Data\processed_network_data.csv")
+df = pd.read_csv("Data/processed_network_data.csv")
 df["timestamp"] = pd.to_datetime(df["timestamp"])
 
 # Sidebar - Node ID selector
