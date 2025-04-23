@@ -32,7 +32,7 @@ This project implements a **Digital Twin** to monitor virtual network nodes, det
 
 ## 📁 Folder Structure
 
-<pre> comcast-digital-twin-ml/ 
+<pre> digital-twin-ml/ 
   ├── data/ # Raw + processed telemetry CSVs 
   │ ├── processed_network_data.csv
   │ └── simulated_network_telemetry.csv
