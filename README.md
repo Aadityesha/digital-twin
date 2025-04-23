@@ -28,7 +28,7 @@ This project implements a **Digital Twin** to monitor virtual network nodes, det
 ---
 
 ## 📁 Folder Structure
-
+'''
 <pre> digital-twin-ml/ 
   ├── data/ # Raw + processed telemetry CSVs 
   │ ├── processed_network_data.csv
@@ -44,3 +44,59 @@ This project implements a **Digital Twin** to monitor virtual network nodes, det
   │ └── config.toml # Dark mode + UI theme 
   ├── README.md 
   └── requirements.txt </pre>
+'''
+## ⚙️ How to Run Locally
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/Aadityesha/digital-twin.git
+cd digital-twin-ml
+```
+
+### 2. Install Requirements
+
+```bash
+pip install -r requirements.txt
+```
+
+Make sure you have:
+- Python 3.8+
+- Spark 3.x
+- Java 8+
+
+### 3. Simulate Data
+
+```bash
+python scripts/simulate_network_node.py
+```
+
+### 4. Run the Streamlit Dashboard
+
+```bash
+streamlit run app/dashboard.py
+```
+
+Open your browser at: `http://localhost:8501`
+
+---
+
+## 🔮 Future Ideas
+
+- Real-time streaming using `pyspark.streaming`
+- Model monitoring with drift detection
+- Deploy via Streamlit Cloud or AWS Lambda
+- Add authentication for team dashboards
+
+---
+
+## 👨‍💻 Author
+
+Made with ❤️ by [Your Name]  
+🔗 [LinkedIn](https://linkedin.com/in/your-name) • [Portfolio](https://yourportfolio.dev)
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
