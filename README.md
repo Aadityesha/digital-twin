@@ -29,7 +29,7 @@ This project implements a **Digital Twin** to monitor virtual network nodes, det
 
 ## 📁 Folder Structure
 '''
-<pre> digital-twin-ml/ 
+digital-twin-ml/ 
   ├── data/ # Raw + processed telemetry CSVs 
   │ ├── processed_network_data.csv
   │ └── simulated_network_telemetry.csv
@@ -43,7 +43,7 @@ This project implements a **Digital Twin** to monitor virtual network nodes, det
   ├── .streamlit/ 
   │ └── config.toml # Dark mode + UI theme 
   ├── README.md 
-  └── requirements.txt </pre>
+  └── requirements.txt
 '''
 ## ⚙️ How to Run Locally
 
