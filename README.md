@@ -93,7 +93,7 @@ Open your browser at: `http://localhost:8501`
 ## 👨‍💻 Author
 
 Made with ❤️ by [Your Name]  
-🔗 [LinkedIn](https://linkedin.com/in/your-name) • [Portfolio](https://yourportfolio.dev)
+🔗 [LinkedIn](https://www.linkedin.com/in/aadityesha/) • [Portfolio](https://aadityesha.github.io/web/)
 
 ---
 
