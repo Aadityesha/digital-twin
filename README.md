@@ -23,9 +23,6 @@ This project implements a **Digital Twin** to monitor virtual network nodes, det
 ### 📈 CPU, Temp, Latency Charts
 ![charts](./screenshots/telemetry_trends.png)
 
-### 📊 Responsive Metric Cards
-![metrics](./screenshots/metrics_cards.png)
-
 > You can customize colors and themes in `.streamlit/config.toml`.
 
 ---
