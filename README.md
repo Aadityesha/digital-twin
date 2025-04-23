@@ -34,11 +34,16 @@ This project implements a **Digital Twin** to monitor virtual network nodes, det
 
 <pre> comcast-digital-twin-ml/ 
   ├── data/ # Raw + processed telemetry CSVs 
+  │ ├── processed_network_data.csv
+  │   └── simulated_network_telemetry.csv
   ├── notebooks/ # Jupyter notebooks (data + modeling) 
+  │ ├── 01_data_processing_pyspark.ipynb
+  │ └── 02_model_training.ipynb
   ├── scripts/ # Data simulation script 
+  │ └── simulate_network_node.py
   ├── app/ 
-    │ └── dashboard.py # Streamlit app 
+  │ └── dashboard.py # Streamlit app 
   ├── .streamlit/ 
-    │ └── config.toml # Dark mode + UI theme 
+  │ └── config.toml # Dark mode + UI theme 
   ├── README.md 
   └── requirements.txt </pre>
